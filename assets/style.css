@@ -14,7 +14,7 @@
 --offBlack: hsl(0, 0%, 8%);
 /* Typography */
 --fs-p:0.875rem;
---fs-h-a:1rem;
+--fs-h-s:0.75rem;
 }
 *,::before,::after{
     box-sizing: border-box;
@@ -43,6 +43,7 @@ main{
     max-width: 20rem;
     background-color: var(--darkGrey);
     padding: 20px;
+    border-radius: 10px;
     
 }
 
@@ -54,13 +55,17 @@ main p:nth-child(3){
 main p:nth-child(4){
     margin-bottom: 10px;
 }
+
 img{
     border-radius: 20px;
 }
 
 main a{
     display: block;
-    padding: 5px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    font-weight: 600;
     color: inherit;
     background-color: var(--grey);
     text-decoration: none;
