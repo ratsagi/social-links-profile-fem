@@ -25,6 +25,7 @@
 
 body{
     display: flex;
+    position: relative;
     min-height:100vh;
     justify-content: center;
     align-items: center;
@@ -38,35 +39,41 @@ body{
 main{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem;
     align-items: center;
     max-width: 20rem;
     background-color: var(--darkGrey);
-    padding: 20px;
-    border-radius: 10px;
+    padding: 1.25rem;
+    border-radius: 0.625rem;
     
 }
-
-
-main p:nth-child(3){
-    color: var(--green);
-    margin-bottom: 20px;
-}
-main p:nth-child(4){
-    margin-bottom: 10px;
-}
-
-img{
-    border-radius: 20px;
-}
-
 main a{
     display: block;
     text-align: center;
-    padding: 10px;
+    padding: 0.625rem;
     width: 100%;
     font-weight: 600;
     color: inherit;
     background-color: var(--grey);
     text-decoration: none;
+}
+
+
+main p:nth-child(3){
+    color: var(--green);
+    margin-bottom: 1.25rem;
+}
+main p:nth-child(4){
+    margin-bottom: 0.625rem;
+}
+
+img{
+    border-radius: 1.25rem;
+}
+a:hover{
+    background-color: var(--green);
+}
+footer {
+    position: fixed;
+    bottom: 0;                   
 }
