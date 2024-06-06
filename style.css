@@ -59,17 +59,21 @@ body{
     width: 100%;
 }
 .social-profile__link{
-    padding: 0.625rem;
     background-color: var(--grey);
     margin: 0.625rem;
     list-style: none;
     text-align: center;
 }
-.social-profile__link:hover, .social-profile__link>a:focus{
+.social-profile__link:hover {
     background-color: var(--green);
     
 }
+.social-profile__link>a:focus{
+    background-color: var(--green);
+}
 .social-profile__link>a{
+    display: block;
+    padding: 0.625rem;              
     text-decoration: none;
     color: inherit;
     font-weight: 600;
