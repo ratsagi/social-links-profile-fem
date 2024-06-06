@@ -27,7 +27,7 @@ Users should be able to:
 ![social link profile](image.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [My solution](https://www.frontendmentor.io/solutions/responsive-social-links-profile-using-flexbox-afF8Riic5Q)
 - Live Site URL: [Live site URL here](https://ratsagi.github.io/social-links-profile-fem/)
 
 ## My process
