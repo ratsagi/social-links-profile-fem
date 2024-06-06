@@ -21,8 +21,6 @@
     padding: 0;
     margin: 0;
 }
-
-
 body{
     display: flex;
     position: relative;
@@ -47,17 +45,6 @@ main{
     border-radius: 0.625rem;
     
 }
-main a{
-    text-align: center;
-    padding: 0.625rem;
-    width: 100%;
-    font-weight: 600;
-    color: inherit;
-    background-color: var(--grey);
-    text-decoration: none;
-}
-
-
 main p{
     color: var(--green);
     margin-bottom: 1.25rem;
@@ -69,8 +56,23 @@ blockquote{
 img{
     border-radius: 1.25rem;
 }
-a:hover, a:focus{
+ul{
+    width: 100%;
+}
+ul>li{
+    padding: 0.625rem;
+    background-color: var(--grey);
+    margin: 0.625rem;
+    list-style: none;
+    text-align: center;
+}
+li:hover, a:focus{
     background-color: var(--green);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
 }
 footer {
     position: fixed;
