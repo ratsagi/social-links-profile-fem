@@ -48,7 +48,6 @@ main{
     
 }
 main a{
-    display: block;
     text-align: center;
     padding: 0.625rem;
     width: 100%;
@@ -59,21 +58,28 @@ main a{
 }
 
 
-main p:nth-child(3){
+main p{
     color: var(--green);
     margin-bottom: 1.25rem;
 }
-main p:nth-child(4){
+blockquote{
     margin-bottom: 0.625rem;
 }
 
 img{
     border-radius: 1.25rem;
 }
-a:hover{
+a:hover, a:focus{
     background-color: var(--green);
 }
 footer {
     position: fixed;
-    bottom: 0;                   
+    bottom: 0;
+    font-size: 0.6875rem;
+    text-align: center;
+                      
+}
+footer a{
+    text-decoration: none;
+    color: hsl(201, 86%, 49%);
 }
