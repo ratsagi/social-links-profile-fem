@@ -85,5 +85,7 @@ footer a{
     color: hsl(204, 94%, 49%);
 }
 footer a:focus{
+    background-color:var(--white) ;
     color: black;
+
 }
