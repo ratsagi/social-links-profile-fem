@@ -63,7 +63,6 @@ body{
     margin: 0.625rem;
     list-style: none;
     text-align: center;
-    padding: 0.625rem;
 }
 .social-profile__link:hover {
     background-color: var(--green);
@@ -72,10 +71,12 @@ body{
 .social-profile__link:focus{
     background-color: var(--green);
 }
-.social-profile__link{              
+.social-profile__link{
+    display: block;              
     text-decoration: none;
     color: inherit;
     font-weight: 600;
+    padding: 0.625rem;
 }
 footer {
     position: fixed;
