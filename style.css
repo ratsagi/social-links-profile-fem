@@ -23,7 +23,7 @@
 }
 body{
     display: flex;
-    min-height:100vh;
+    min-height:100dvh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -55,10 +55,10 @@ body{
 .social-profile__avatar{
     border-radius: 1.25rem;
 }
-.social-profile__links{
+.social-profile__list{
     width: 100%;
 }
-.social-profile__link{
+.social-profile__item{
     background-color: var(--grey);
     margin: 0.625rem;
     list-style: none;
@@ -68,10 +68,10 @@ body{
     background-color: var(--green);
     
 }
-.social-profile__link>a:focus{
+.social-profile__link:focus{
     background-color: var(--green);
 }
-.social-profile__link>a{
+.social-profile__link{
     display: block;
     padding: 0.625rem;              
     text-decoration: none;
