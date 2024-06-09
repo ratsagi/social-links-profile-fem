@@ -38,9 +38,9 @@ body{
     flex-direction: column;
     gap: 0.625rem;
     align-items: center;
-    max-width: 20rem;
+    max-width: 40rem;
     background-color: var(--darkGrey);
-    padding: 1.5rem;
+    padding: 2rem;
     border-radius: 0.625rem;
     
 }
@@ -63,6 +63,7 @@ body{
     margin: 0.625rem;
     list-style: none;
     text-align: center;
+    padding: 0.625rem;
 }
 .social-profile__link:hover {
     background-color: var(--green);
@@ -71,9 +72,7 @@ body{
 .social-profile__link:focus{
     background-color: var(--green);
 }
-.social-profile__link{
-    display: block;
-    padding: 0.625rem;              
+.social-profile__link{              
     text-decoration: none;
     color: inherit;
     font-weight: 600;
