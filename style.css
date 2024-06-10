@@ -38,8 +38,7 @@ body{
     flex-direction: column;
     gap: 0.625rem;
     align-items: center;
-    /* max-width: 40rem; */
-    width: clamp(15rem, 25rem, 20rem);
+    max-width: 40rem;
     background-color: var(--darkGrey);
     padding: 2rem;
     border-radius: 0.625rem;
@@ -80,7 +79,6 @@ body{
     padding: 0.625rem;
 }
 footer {
-    position: fixed;
     bottom: 0;
     font-size: 0.6875rem;
     text-align: center;
