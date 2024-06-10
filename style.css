@@ -38,7 +38,8 @@ body{
     flex-direction: column;
     gap: 0.625rem;
     align-items: center;
-    max-width: 40rem;
+    /* max-width: 40rem; */
+    width: clamp(15rem, 25rem, 20rem);
     background-color: var(--darkGrey);
     padding: 2rem;
     border-radius: 0.625rem;
